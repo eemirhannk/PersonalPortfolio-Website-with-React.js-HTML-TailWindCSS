@@ -2,22 +2,23 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className='w-full h-screen flex justify-between items-center pr-32 px-32'>
-    <div className='max-w-xl'>
-        <h3 className='text-3xl font-bold opacity-0'>Hello, It's Me</h3>
-        <h1 className='mt-4 text-6xl font-bold -mx-1 my-0'>Emirhan Koç</h1>
-        <h3 className='mt-4 text-3xl font-bold opacity-0'>And I'm a <span className='multiple-text'>Frontend Developer</span></h3>
-        <p className='text-lg'>I'm 20 years old Computer Engineering Student of Kocaeli University.</p>
+    <section className='min-h-screen pt-40 px-[9%] pb-8 flex justify-between items-center'>
+    <div className='home-content'>
+        <h3 className='text-[3.2rem] font-bold'>Hello, It's Me</h3>
+        <h1 className='text-[5.6rem] font-bold leading-[1.3]'>Emirhan Koç</h1>
+        <h3 className='text-[3.2rem] font-bold'>And I'm a <span className='text-blue'>Frontend Developer</span></h3>
+        <p className='text-[1.6rem]'>I'm 20 years old Computer Engineering Student of Kocaeli University.</p>
         <div>
-            <a className='inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-solid border-blue rounded-full text-xl text-blue no-underline ease-in duration-150 hover:bg-blue hover:text-dark' href="https://www.instagram.com/eemirkoc" target='_blank'><i class='bx bxl-instagram-alt'></i></a>
-            <a className='inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-solid border-blue rounded-full text-xl text-blue no-underline ease-in duration-150 hover:bg-blue hover:text-dark' href="twitter.com/eemirkocc" target='_blank'><i class='bx bxl-twitter' ></i></a>
-            <a className='inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-solid border-blue rounded-full text-xl text-blue no-underline ease-in duration-150 hover:bg-blue hover:text-dark' href="github.com/eemirhannk" target='_blank'><i class='bx bxl-github' ></i></a>
-            <a className='inline-flex justify-center items-center w-10 h-10 bg-transparent border-2 border-solid border-blue rounded-full text-xl text-blue no-underline ease-in duration-150 hover:bg-blue hover:text-dark' href="https://www.linkedin.com/in/emirhan-koç-706a32234/" target='_blank'><i class='bx bxl-linkedin' ></i></a>
+          {/* Aşağıdaki linklere box shadow koyulacak tailwind kullanarak başaramadım. */}
+            <a href="https://www.instagram.com/eemirkoc" target='_blank' className='inline-flex justify-center items-center w-16 h-16 bg-transparent border-[.2rem] border-solid border-blue rounded-[50%] text-[2rem] text-blue mt-12 mr-6 mb-12 ml-0 hover:bg-blue hover:text-grey'><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.twitter.com/eemirkocc" target='_blank' className='inline-flex justify-center items-center w-16 h-16 bg-transparent border-[.2rem] border-solid border-blue rounded-[50%] text-[2rem] text-blue mt-12 mr-6 mb-12 ml-0 hover:bg-blue hover:text-grey'><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.github.com/eemirhannk" target='_blank' className='inline-flex justify-center items-center w-16 h-16 bg-transparent border-[.2rem] border-solid border-blue rounded-[50%] text-[2rem] text-blue mt-12 mr-6 mb-12 ml-0 hover:bg-blue hover:text-grey' ><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/emirhan-koç-706a32234/" target='_blank' className='inline-flex justify-center items-center w-16 h-16 bg-transparent border-[.2rem] border-solid border-blue rounded-[50%] text-[2rem] text-blue mt-12 mr-6 mb-12 ml-0 hover:bg-blue hover:text-grey' ><i class='bx bxl-linkedin' ></i></a>
         </div>
-        <a href="https://drive.google.com/file/d/1IUzPRpLfnTugGDktY4oMOZuz6o3GNxBu/view?usp=share_link" target="_blank" className="inline-block px-3 py-7 bg-blue rounded-3xl text-base text-dark tracking-widest font-semibold hover:bg-dark hover:text-blue">Download CV</a>
+        <a href="https://drive.google.com/file/d/1IUzPRpLfnTugGDktY4oMOZuz6o3GNxBu/view?usp=share_link" target="_blank" className="inline-block py-[1rem] px-[2.8rem] bg-blue rounded-[4rem] text-[1.6rem] text-dark tracking-[.1rem] font-semibold border-solid border-2 ease-linear duration-[.4s] hover:bg-dark hover:text-blue">Download CV</a>
         </div>
         <div className="home-img">
-            <img src="Home.jpg" className='max-w-md mr-10' alt="" />
+            <img className='max-w-[30vw] mr-36' src="Home.jpg"alt="" />
         
     </div>
     </section>

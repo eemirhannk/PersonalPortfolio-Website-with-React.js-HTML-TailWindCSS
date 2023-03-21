@@ -9,15 +9,10 @@ module.exports = {
     colors: {
       blue : '#0ef',
       white : '#fff',
-      dark : '#1f242d;'
+      dark : '#1f242d;',
+      grey : '#323946'
     },
     extend: {},
   },
-  plugins: [plugin(function({ addBase, theme }) {
-    addBase({
-      'h1': { fontSize: theme('fontSize.2xl') },
-      'h2': { fontSize: theme('fontSize.xl') },
-      'h3': { fontSize: theme('fontSize.lg') },
-    })
-  })],
+  plugins: [],
 }

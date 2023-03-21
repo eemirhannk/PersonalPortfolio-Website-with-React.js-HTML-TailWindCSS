@@ -3,11 +3,11 @@ import React from 'react'
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <a className='text-lg text-white no-underline font-medium ml-9 hover:text-blue ease-in duration-150' href="#">Home</a>
-      <a className='text-lg text-white no-underline font-medium ml-9 hover:text-blue ease-in duration-150'  href="#">About</a>
-      <a className='text-lg text-white no-underline font-medium ml-9 hover:text-blue ease-in duration-150'  href="#">Skills</a>
-      <a className='text-lg text-white no-underline font-medium ml-9 hover:text-blue ease-in duration-150'  href="#">Portfolio</a>
-      <a className='text-lg text-white no-underline font-medium ml-9 hover:text-blue ease-in duration-150'  href="#">Contact</a>
+      <a href="#home" className='text-[1.7rem] text-white no-underline font-medium ml-16 ease-linear duration-[.3s] hover:text-blue'>Home</a>
+      <a href="#about" className='text-[1.7rem] text-white no-underline font-medium ml-16 ease-linear duration-[.3s] hover:text-blue'>About</a>
+      <a href="#skills" className='text-[1.7rem] text-white no-underline font-medium ml-16 ease-linear duration-[.3s] hover:text-blue'>Skills</a>
+      <a href="#portfolio" className='text-[1.7rem] text-white no-underline font-medium ml-16 ease-linear duration-[.3s] hover:text-blue'>Portfolio</a>
+      <a href="#contact" className='text-[1.7rem] text-white no-underline font-medium ml-16 ease-linear duration-[.3s] hover:text-blue'>Contact</a>
     </nav>
   )
 }
