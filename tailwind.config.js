@@ -12,7 +12,11 @@ module.exports = {
       dark : '#1f242d;',
       grey : '#323946'
     },
-    extend: {},
+    extend: {
+      flex: {
+        '2': '1 1 30rem'
+      }
+    },
   },
   plugins: [],
 }
