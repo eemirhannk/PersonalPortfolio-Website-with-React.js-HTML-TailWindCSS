@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between flex-wrap py-8">
+    <footer className="flex justify-between flex-wrap py-8 max-[991px]:py-8 px-[3%]">
         <div className="mt-6">
             {/* Alttaki href e siteyi yayına alınca sitenin linkini koy.*/}
             <p className='text-[1.6rem] font-bold'>Created and designed by <a href="https://twitter.com/eemirkocc" target='_blank'>Emirhan Koç.</a></p>

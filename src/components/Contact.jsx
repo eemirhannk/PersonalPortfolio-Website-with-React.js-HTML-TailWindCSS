@@ -3,7 +3,7 @@ import Footer from './Footer'
 
 const Contact = () => {
   return (
-    <section className="min-h-screen pt-80 px-[9%] pb-8 flex-col" id="contact">
+    <section className="min-h-screen pt-80 px-[9%] pb-8 flex-col max-[991px]:pt-40 max-[991px]:px-[3%] max-[991px]:pb-8" id="contact">
         <h2 className="mb-20 text-center text-[4.5rem] font-bold">Contact <span className='text-blue'> Me!</span></h2>
 
         <form action="#" className='max-w-[70rem] my-4 mx-auto text-center mb-12'>

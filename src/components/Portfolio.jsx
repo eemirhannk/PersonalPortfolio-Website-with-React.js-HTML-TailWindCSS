@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <section className='min-h-screen pt-96 px-[9%] pb-8 bg-grey' id='portfolio'>
+    <section className='min-h-screen pt-96 px-[9%] pb-8 bg-grey max-[991px]:pt-40 max-[991px]:px-[3%] max-[991px]:pb-8' id='portfolio'>
         <h2 className="mb-56 text-center text-[4.5rem] font-bold">Latest <span className='text-blue'>Projects</span></h2>
 
         <div className="grid grid-cols-3 items-center gap-10">
