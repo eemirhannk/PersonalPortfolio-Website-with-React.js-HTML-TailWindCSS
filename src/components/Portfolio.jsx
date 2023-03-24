@@ -10,27 +10,27 @@ const Portfolio = () => {
             <div className="relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
                 <img src="portfolio-2.jpg" className='w-full ease-linear duration-[.4s] hover:scale-[1.1]' alt="" />
                 <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-blue to-dark flex justify-center items-center flex-col text-center py-0 px-16">
-                  <h4 className='my-8 text-[3rem] font-bold'>Web Design</h4>
-                  <p className='text-[1.6rem] mt-[.3rem] mx-0 mb-8'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, eveniet!</p>
-                  <a  className='inline-flex justify-center items-center w-20 h-20 bg-white rounded-[50%]' href="#"><i className='text-[2rem] text-grey bx bx-link-external'></i></a>
+                  <h4 className='my-8 text-[3rem] font-bold'>E-Commerce Website Clone</h4>
+                  <p className='text-[1.6rem] mt-[.3rem] mx-0 mb-8'>E-Commerce Website Clone Project using React.js, Redux and TailwindCSS.(Developed with JavaScript.)</p>
+                  <a  className='inline-flex justify-center items-center w-20 h-20 bg-white rounded-[50%]' href="https://github.com/eemirhannk/Website-Clone-with-React.js-HTML-TailWindCSS" target='_blank'><i className='text-[2rem] text-grey bx bx-link-external'></i></a>
                 </div>
             </div>
             {/* Box shadow eklenecek 0 0 1rem olacak şekilde aşağıya*/}
             <div className="relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
                 <img src="portfolio-2.jpg"  className='w-full ease-linear duration-[.4s] hover:scale-[1.1]' alt="" />
                 <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-blue to-dark flex justify-center items-center flex-col text-center py-0 px-16">
-                  <h4 className='my-8 text-[3rem] font-bold'>Web Design</h4>
-                  <p className='text-[1.6rem] mt-[.3rem] mx-0 mb-8'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, eveniet!</p>
-                  <a  className='inline-flex justify-center items-center w-20 h-20 bg-white rounded-[50%]' href="#"><i className='text-[2rem] text-grey bx bx-link-external'></i></a>
+                  <h4 className='my-8 text-[3rem] font-bold'>E-Commerce Website</h4>
+                  <p className='text-[1.6rem] mt-[.3rem] mx-0 mb-8'>E-Commerce Website Development using web scraping.(Developed with Python.)</p>
+                  <a  className='inline-flex justify-center items-center w-20 h-20 bg-white rounded-[50%]' href="#" target='_blank'><i className='text-[2rem] text-grey bx bx-link-external'></i></a>
                 </div>
             </div>
             {/* Box shadow eklenecek 0 0 1rem olacak şekilde aşağıya*/}
             <div className="relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
                 <img src="portfolio-2.jpg"  className='w-full ease-linear duration-[.4s] hover:scale-[1.1]' alt="" />
                 <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-blue to-dark flex justify-center items-center flex-col text-center py-0 px-16">
-                  <h4 className='my-8 text-[3rem] font-bold'>Web Design</h4>
-                  <p className='text-[1.6rem] mt-[.3rem] mx-0 mb-8'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, eveniet!</p>
-                  <a  className='inline-flex justify-center items-center w-20 h-20 bg-white rounded-[50%]' href="#"><i className='text-[2rem] text-grey bx bx-link-external'></i></a>
+                  <h4 className='my-8 text-[3rem] font-bold'>Multithreading</h4>
+                  <p className='text-[1.6rem] mt-[.3rem] mx-0 mb-8'>Multithreading in big data with similar recordings detection.(Developed with Python.)</p>
+                  <a  className='inline-flex justify-center items-center w-20 h-20 bg-white rounded-[50%]' href="https://github.com/eemirhannk/Multithreading-with-Python" target='_blank'><i className='text-[2rem] text-grey bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
