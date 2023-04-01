@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className='min-h-screen flex justify-center items-center gap-8 bg-grey max-[991px]:pt-40 max-[991px]:px-[3%] max-[991px]:pb-8' id='about'>
 
-        <img className='max-w-[30vw] my-[5rem] ml-[17rem]' src="About.jpg" alt="" />
+        <img className='max-w-[30vw] my-[5rem] ml-[17rem]' src="https://gcdnb.pbrd.co/images/kkh5dOrUekqR.jpg?o=1" alt="" />
 
       <div className="ml-72">
         <h2 className='text-left text-[4.5rem] font-bold leading-[1.2]'>About <span className='text-blue'>Me</span></h2>

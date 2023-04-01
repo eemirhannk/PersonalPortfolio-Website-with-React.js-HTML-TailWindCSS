@@ -7,7 +7,7 @@ const Portfolio = () => {
 
         <div className="grid grid-cols-3 items-center gap-10">
           {/* Box shadow eklenecek 0 0 1rem olacak şekilde aşağıya*/}
-            <div className="relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
+            <div className="cursor-default relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
                 <img src="portfolio-2.jpg" className='w-full ease-linear duration-[.4s] hover:scale-[1.1]' alt="" />
                 <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-blue to-dark flex justify-center items-center flex-col text-center py-0 px-16">
                   <h4 className='my-8 text-[3rem] font-bold'>E-Commerce Website Clone</h4>
@@ -16,7 +16,7 @@ const Portfolio = () => {
                 </div>
             </div>
             {/* Box shadow eklenecek 0 0 1rem olacak şekilde aşağıya*/}
-            <div className="relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
+            <div className="cursor-default relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
                 <img src="portfolio-2.jpg"  className='w-full ease-linear duration-[.4s] hover:scale-[1.1]' alt="" />
                 <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-blue to-dark flex justify-center items-center flex-col text-center py-0 px-16">
                   <h4 className='my-8 text-[3rem] font-bold'>E-Commerce Website</h4>
@@ -25,7 +25,7 @@ const Portfolio = () => {
                 </div>
             </div>
             {/* Box shadow eklenecek 0 0 1rem olacak şekilde aşağıya*/}
-            <div className="relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
+            <div className="cursor-default relative rounded-[2rem] overflow-hidden flex ease-linear duration-[.4s] hover:shadow-first">
                 <img src="portfolio-2.jpg"  className='w-full ease-linear duration-[.4s] hover:scale-[1.1]' alt="" />
                 <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-blue to-dark flex justify-center items-center flex-col text-center py-0 px-16">
                   <h4 className='my-8 text-[3rem] font-bold'>Multithreading</h4>
